@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Q-Acadêmico</title>
+    
+    <!-- Links para as fontes Google Oswald e Open Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Estilos Globais */
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #FBF6D9; /* Cor do fundo */
+            font-family: 'Oswald', sans-serif; /* Fonte Oswald */
+            color: #E6BF83; /* Cor do texto padrão */
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+        }
+
+        /* Estilo para o título */
+        .titulo-principal h2 {
+            color: #E6BF83; /* Cor para "BEM VINDO AO" */
+            font-size: 2rem; /* Tamanho da fonte H2 */
+            text-align: left;
+        }
+
+        .titulo-principal h1 {
+            color: #C19A6B; /* Cor para "Q-ACADEMICO" */
+            font-size: 3rem; /* Tamanho da fonte H1 */
+            text-align: left;
+            display: inline;
+        }
+
+        .titulo-principal .web {
+            color: #E6BF83; /* Cor para "WEB" */
+            font-size: 3rem;
+        }
+
+        /* Estilo para as seções de "Professores" e "Alunos" */
+        .link-secao {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .link-secao img {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+
+        .link-secao a {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            font-size: 1rem;
+            color: #000; /* Cor preta para os links */
+            text-decoration: underline;
+        }
+
+        /* Estilo para o rodapé */
+        .rodape {
+            margin-top: 50px;
+            font-family: 'Times New Roman', serif;
+            font-size: 1rem;
+            color: black;
+            text-align: left;
+        }
+
+        .rodape img {
+            width: 300px;
+            height: 100px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Texto Superior -->
+    <div class="titulo-principal">
+        <h2>BEM VINDO AO</h2>
+        <h1>Q-ACADEMICO</h1><span class="web"> WEB</span>
+    </div>
+
+    <!-- Quebra de 3 linhas -->
+    <br><br><br>
+
+    <!-- Link para Professores com imagem -->
+    <div class="link-secao">
+        <img src="https://academico.ifes.edu.br/qacademico/imagens/escolhamoduloprofessores_icone.gif" alt="Professores">
+        <a href="link_para_professores.html">Professores</a>
+    </div>
+
+    <!-- Quebra de linha -->
+    <br>
+
+    <!-- Link para Alunos com imagem -->
+    <div class="link-secao">
+        <img src="https://academico.ifes.edu.br/qacademico/imagens/escolhamoduloalunos_icone.gif" alt="Alunos">
+        <a href="link_para_alunos.html">Alunos</a>
+    </div>
+
+    <!-- Quebra de 4 linhas -->
+    <br><br><br><br>
+
+    <!-- Rodapé -->
+    <div class="rodape">
+        <h3>Desenvolvido por:</h3>
+        <img src="https://academico.ifes.edu.br/logo_qualidata.gif" alt="Imagem 1">
+        <img src="https://academico.ifes.edu.br/qacademico//lib/customizacoes/ifes.gif" alt="Imagem 2">
+    </div>
+
+</body>
+</html>
+
